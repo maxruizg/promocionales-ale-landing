@@ -1,0 +1,245 @@
+{
+  "buildManifest": {
+    "serverBundles": {
+      "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0": {
+        "id": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+        "file": "build/server/nodejs_eyJydW50aW1lIjoibm9kZWpzIn0/index.js",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    },
+    "routeIdToServerBundleId": {
+      "routes/home": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/categorias": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/categorias.$slug": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/producto.$slug": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/cotizar": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/contacto": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/marcas": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/aviso-privacidad": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0",
+      "routes/terminos": "nodejs_eyJydW50aW1lIjoibm9kZWpzIn0"
+    },
+    "routes": {
+      "root": {
+        "id": "root",
+        "file": "app/root.tsx",
+        "path": "",
+        "config": {}
+      },
+      "routes/home": {
+        "id": "routes/home",
+        "parentId": "root",
+        "file": "app/routes/home.tsx",
+        "index": true,
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/categorias": {
+        "id": "routes/categorias",
+        "parentId": "root",
+        "file": "app/routes/categorias.tsx",
+        "path": "categorias",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/categorias.$slug": {
+        "id": "routes/categorias.$slug",
+        "parentId": "root",
+        "file": "app/routes/categorias.$slug.tsx",
+        "path": "categorias/:slug",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/producto.$slug": {
+        "id": "routes/producto.$slug",
+        "parentId": "root",
+        "file": "app/routes/producto.$slug.tsx",
+        "path": "producto/:slug",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/cotizar": {
+        "id": "routes/cotizar",
+        "parentId": "root",
+        "file": "app/routes/cotizar.tsx",
+        "path": "cotizar",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/contacto": {
+        "id": "routes/contacto",
+        "parentId": "root",
+        "file": "app/routes/contacto.tsx",
+        "path": "contacto",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/marcas": {
+        "id": "routes/marcas",
+        "parentId": "root",
+        "file": "app/routes/marcas.tsx",
+        "path": "marcas",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/aviso-privacidad": {
+        "id": "routes/aviso-privacidad",
+        "parentId": "root",
+        "file": "app/routes/aviso-privacidad.tsx",
+        "path": "aviso-privacidad",
+        "config": {
+          "runtime": "nodejs"
+        }
+      },
+      "routes/terminos": {
+        "id": "routes/terminos",
+        "parentId": "root",
+        "file": "app/routes/terminos.tsx",
+        "path": "terminos",
+        "config": {
+          "runtime": "nodejs"
+        }
+      }
+    }
+  },
+  "reactRouterConfig": {
+    "appDirectory": "/Users/maxruizg/Workspace/Personal/Landings/promocionales-ale-landing/app",
+    "basename": "/",
+    "buildDirectory": "/Users/maxruizg/Workspace/Personal/Landings/promocionales-ale-landing/build",
+    "future": {
+      "unstable_optimizeDeps": false,
+      "unstable_subResourceIntegrity": false,
+      "unstable_trailingSlashAwareDataRequests": false,
+      "v8_middleware": false,
+      "v8_splitRouteModules": false,
+      "v8_viteEnvironmentApi": false
+    },
+    "routes": {
+      "root": {
+        "id": "root",
+        "file": "root.tsx",
+        "path": ""
+      },
+      "routes/home": {
+        "id": "routes/home",
+        "parentId": "root",
+        "file": "routes/home.tsx",
+        "index": true
+      },
+      "routes/categorias": {
+        "id": "routes/categorias",
+        "parentId": "root",
+        "file": "routes/categorias.tsx",
+        "path": "categorias"
+      },
+      "routes/categorias.$slug": {
+        "id": "routes/categorias.$slug",
+        "parentId": "root",
+        "file": "routes/categorias.$slug.tsx",
+        "path": "categorias/:slug"
+      },
+      "routes/producto.$slug": {
+        "id": "routes/producto.$slug",
+        "parentId": "root",
+        "file": "routes/producto.$slug.tsx",
+        "path": "producto/:slug"
+      },
+      "routes/cotizar": {
+        "id": "routes/cotizar",
+        "parentId": "root",
+        "file": "routes/cotizar.tsx",
+        "path": "cotizar"
+      },
+      "routes/contacto": {
+        "id": "routes/contacto",
+        "parentId": "root",
+        "file": "routes/contacto.tsx",
+        "path": "contacto"
+      },
+      "routes/marcas": {
+        "id": "routes/marcas",
+        "parentId": "root",
+        "file": "routes/marcas.tsx",
+        "path": "marcas"
+      },
+      "routes/aviso-privacidad": {
+        "id": "routes/aviso-privacidad",
+        "parentId": "root",
+        "file": "routes/aviso-privacidad.tsx",
+        "path": "aviso-privacidad"
+      },
+      "routes/terminos": {
+        "id": "routes/terminos",
+        "parentId": "root",
+        "file": "routes/terminos.tsx",
+        "path": "terminos"
+      }
+    },
+    "routeDiscovery": {
+      "mode": "lazy",
+      "manifestPath": "/__manifest"
+    },
+    "serverBuildFile": "index.js",
+    "serverModuleFormat": "esm",
+    "ssr": true,
+    "allowedActionOrigins": false,
+    "unstable_routeConfig": [
+      {
+        "id": "root",
+        "path": "",
+        "file": "root.tsx",
+        "children": [
+          {
+            "file": "routes/home.tsx",
+            "index": true
+          },
+          {
+            "file": "routes/categorias.tsx",
+            "path": "categorias"
+          },
+          {
+            "file": "routes/categorias.$slug.tsx",
+            "path": "categorias/:slug"
+          },
+          {
+            "file": "routes/producto.$slug.tsx",
+            "path": "producto/:slug"
+          },
+          {
+            "file": "routes/cotizar.tsx",
+            "path": "cotizar"
+          },
+          {
+            "file": "routes/contacto.tsx",
+            "path": "contacto"
+          },
+          {
+            "file": "routes/marcas.tsx",
+            "path": "marcas"
+          },
+          {
+            "file": "routes/aviso-privacidad.tsx",
+            "path": "aviso-privacidad"
+          },
+          {
+            "file": "routes/terminos.tsx",
+            "path": "terminos"
+          }
+        ]
+      }
+    ]
+  },
+  "viteConfig": {
+    "build": {
+      "assetsDir": "assets"
+    }
+  }
+}
