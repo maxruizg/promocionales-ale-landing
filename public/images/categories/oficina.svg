@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="white" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)" rx="0"/>
+  <!-- Dot grid overlay -->
+  <rect width="800" height="600" fill="url(#dots)"/>
+  <!-- Briefcase icon -->
+  <g transform="translate(400, 250)" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Briefcase body -->
+    <rect x="-80" y="-40" width="160" height="110" rx="12" fill="white" fill-opacity="0.2" stroke="white"/>
+    <!-- Top handle -->
+    <path d="M-30,-40 L-30,-60 Q-30,-75 -15,-75 L15,-75 Q30,-75 30,-60 L30,-40" fill="none" stroke="white" stroke-width="5"/>
+    <!-- Middle clasp band -->
+    <line x1="-80" y1="10" x2="80" y2="10" stroke="white" stroke-width="3" opacity="0.5"/>
+    <!-- Center clasp -->
+    <rect x="-14" y="0" width="28" height="20" rx="4" fill="white" fill-opacity="0.15" stroke="white" stroke-width="3"/>
+    <!-- Clasp keyhole -->
+    <circle cx="0" cy="10" r="4" fill="none" stroke="white" stroke-width="2.5"/>
+    <!-- Bottom detail -->
+    <line x1="-65" y1="50" x2="65" y2="50" stroke="white" stroke-width="2" opacity="0.3"/>
+    <!-- Side buckle left -->
+    <rect x="-75" y="-10" width="8" height="14" rx="2" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
+    <!-- Side buckle right -->
+    <rect x="67" y="-10" width="8" height="14" rx="2" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
+  </g>
+  <!-- Category text -->
+  <text x="400" y="420" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="38" font-weight="bold" fill="white" letter-spacing="2">Oficina</text>
+  <!-- Subtle tagline -->
+  <text x="400" y="455" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="16" fill="white" opacity="0.7" letter-spacing="1">PRODUCTOS PROMOCIONALES</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Two pens icon -->
+  <g transform="translate(400,340)" fill="none" stroke="#f43f5e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pen 1 (left, slight angle) -->
+    <g transform="translate(-50,0) rotate(-40)">
+      <rect x="-10" y="-120" width="20" height="190" rx="4" fill="#f43f5e" opacity="0.12"/>
+      <rect x="-10" y="-120" width="20" height="190" rx="4"/>
+      <path d="M-10,70 L0,100 L10,70" fill="#f43f5e" opacity="0.12"/>
+      <path d="M-10,70 L0,100 L10,70"/>
+      <path d="M10,-120 L15,-120 L15,-50 L10,-42" opacity="0.5"/>
+    </g>
+    <!-- Pen 2 (right, slight angle) -->
+    <g transform="translate(50,0) rotate(-50)">
+      <rect x="-10" y="-120" width="20" height="190" rx="4" fill="#f43f5e" opacity="0.08"/>
+      <rect x="-10" y="-120" width="20" height="190" rx="4"/>
+      <path d="M-10,70 L0,100 L10,70" fill="#f43f5e" opacity="0.08"/>
+      <path d="M-10,70 L0,100 L10,70"/>
+      <path d="M10,-120 L15,-120 L15,-50 L10,-42" opacity="0.5"/>
+    </g>
+  </g>
+  <text x="400" y="530" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Set de Plumas</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

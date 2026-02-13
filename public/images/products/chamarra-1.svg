@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Jacket icon -->
+  <g transform="translate(400,340)" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Jacket body -->
+    <path d="M-85,-120 L-135,-90 L-130,-20 L-105,-25 L-105,130 L-20,130 L-20,-40 L0,-60 L20,-40 L20,130 L105,130 L105,-25 L130,-20 L135,-90 L85,-120 L55,-100 C35,-130 -35,-130 -55,-100 Z" fill="#3b82f6" opacity="0.12"/>
+    <path d="M-85,-120 L-135,-90 L-130,-20 L-105,-25 L-105,130 L-20,130 L-20,-40 L0,-60 L20,-40 L20,130 L105,130 L105,-25 L130,-20 L135,-90 L85,-120 L55,-100 C35,-130 -35,-130 -55,-100 Z"/>
+    <!-- Collar -->
+    <path d="M-55,-100 C-35,-75 35,-75 55,-100"/>
+    <!-- Zipper line -->
+    <line x1="0" y1="-60" x2="0" y2="130" stroke-dasharray="8 6" opacity="0.4"/>
+    <!-- Pockets -->
+    <rect x="-90" y="40" width="55" height="45" rx="4" opacity="0.4"/>
+    <rect x="35" y="40" width="55" height="45" rx="4" opacity="0.4"/>
+  </g>
+  <text x="400" y="530" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Chamarra</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

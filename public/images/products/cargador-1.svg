@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Wireless charger icon -->
+  <g transform="translate(400,340)" fill="none" stroke="#a855f7" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Charger pad (circle/disc viewed from angle) -->
+    <ellipse cx="0" cy="40" rx="120" ry="50" fill="#a855f7" opacity="0.10"/>
+    <ellipse cx="0" cy="40" rx="120" ry="50"/>
+    <!-- Pad thickness -->
+    <path d="M-120,40 L-120,55 C-120,80 -65,100 0,100 C65,100 120,80 120,55 L120,40" fill="#a855f7" opacity="0.06"/>
+    <path d="M-120,40 L-120,55 C-120,80 -65,100 0,100 C65,100 120,80 120,55 L120,40"/>
+    <!-- Inner ring -->
+    <ellipse cx="0" cy="40" rx="65" ry="28" opacity="0.3"/>
+    <!-- Lightning bolt in center -->
+    <path d="M-10,-5 L-18,35 L2,28 L10,60 L18,30 L-2,37 Z" fill="#a855f7" opacity="0.3" stroke="none"/>
+    <path d="M-10,-5 L-18,35 L2,28 L10,60 L18,30 L-2,37 Z" stroke-width="5"/>
+    <!-- Wireless waves above -->
+    <path d="M-30,-40 C-30,-60 30,-60 30,-40" opacity="0.25" fill="none"/>
+    <path d="M-45,-55 C-45,-85 45,-85 45,-55" opacity="0.18" fill="none"/>
+    <path d="M-60,-70 C-60,-110 60,-110 60,-70" opacity="0.12" fill="none"/>
+    <!-- Cable coming out -->
+    <path d="M0,100 C0,120 -10,125 -10,140" opacity="0.3" stroke-width="6"/>
+  </g>
+  <text x="400" y="550" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Cargador Inalambrico</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

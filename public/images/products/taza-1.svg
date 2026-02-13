@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Coffee mug icon -->
+  <g transform="translate(380,340)" fill="none" stroke="#14b8a6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Mug body -->
+    <path d="M-90,-80 L-90,100 C-90,120 -70,130 0,130 C70,130 90,120 90,100 L90,-80 Z" fill="#14b8a6" opacity="0.12"/>
+    <path d="M-90,-80 L-90,100 C-90,120 -70,130 0,130 C70,130 90,120 90,100 L90,-80 Z"/>
+    <!-- Handle -->
+    <path d="M90,-40 C140,-40 150,0 150,30 C150,60 140,80 90,80" fill="none"/>
+    <!-- Mug rim -->
+    <line x1="-90" y1="-80" x2="90" y2="-80" stroke-width="10"/>
+    <!-- Steam -->
+    <path d="M-30,-95 C-30,-115 -10,-110 -10,-130" opacity="0.3"/>
+    <path d="M0,-95 C0,-120 20,-115 20,-140" opacity="0.3"/>
+    <path d="M30,-95 C30,-115 50,-110 50,-130" opacity="0.2"/>
+  </g>
+  <text x="400" y="545" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Taza</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

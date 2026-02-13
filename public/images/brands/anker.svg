@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#fafbfc" rx="8"/>
+  <defs>
+    <linearGradient id="grad-anker" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="70" fill="url(#grad-anker)"/>
+  <text x="100" y="100" text-anchor="middle" dominant-baseline="central" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="60" font-weight="bold">A</text>
+</svg>

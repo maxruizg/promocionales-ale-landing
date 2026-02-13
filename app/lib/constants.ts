@@ -87,37 +87,37 @@ export const techniques: Technique[] = [
     id: "serigrafia",
     name: "Serigrafia",
     description: "Impresion directa sobre superficies planas. Ideal para grandes volumenes con colores solidos.",
-    image: "/images/techniques/serigrafia.jpg",
+    image: "/images/techniques/serigrafia.svg",
   },
   {
     id: "sublimacion",
     name: "Sublimacion",
     description: "Transferencia fotografica full-color sobre poliester y superficies tratadas.",
-    image: "/images/techniques/sublimacion.jpg",
+    image: "/images/techniques/sublimacion.svg",
   },
   {
     id: "bordado",
     name: "Bordado",
     description: "Acabado premium con hilo sobre textiles. Durabilidad y elegancia garantizada.",
-    image: "/images/techniques/bordado.jpg",
+    image: "/images/techniques/bordado.svg",
   },
   {
     id: "grabado-laser",
     name: "Grabado Laser",
     description: "Precision milimetrica sobre metal, madera y acrilico. Acabado ejecutivo.",
-    image: "/images/techniques/grabado-laser.jpg",
+    image: "/images/techniques/grabado-laser.svg",
   },
   {
     id: "tampografia",
     name: "Tampografia",
     description: "Impresion sobre superficies curvas e irregulares con gran detalle.",
-    image: "/images/techniques/tampografia.jpg",
+    image: "/images/techniques/tampografia.svg",
   },
   {
     id: "transfer",
     name: "Transfer",
     description: "Impresion full-color sobre textiles oscuros y materiales especiales.",
-    image: "/images/techniques/transfer.jpg",
+    image: "/images/techniques/transfer.svg",
   },
 ];
 

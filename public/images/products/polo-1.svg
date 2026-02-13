@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Polo shirt icon -->
+  <g transform="translate(400,340)" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Polo body (similar to tshirt but with collar) -->
+    <path d="M-80,-120 L-125,-95 L-95,-30 L-60,-50 L-60,120 L60,120 L60,-50 L95,-30 L125,-95 L80,-120 L50,-100 C30,-130 -30,-130 -50,-100 Z" fill="#3b82f6" opacity="0.12"/>
+    <path d="M-80,-120 L-125,-95 L-95,-30 L-60,-50 L-60,120 L60,120 L60,-50 L95,-30 L125,-95 L80,-120 L50,-100 C30,-130 -30,-130 -50,-100 Z"/>
+    <!-- Collar (V-shaped with flaps) -->
+    <path d="M-50,-100 L-35,-95 L0,-65 L35,-95 L50,-100" fill="#3b82f6" opacity="0.06"/>
+    <path d="M-50,-100 L-35,-95 L0,-65 L35,-95 L50,-100"/>
+    <!-- Collar flaps -->
+    <path d="M-50,-100 L-55,-85 L-35,-95" fill="#3b82f6" opacity="0.08"/>
+    <path d="M50,-100 L55,-85 L35,-95" fill="#3b82f6" opacity="0.08"/>
+    <!-- Buttons -->
+    <circle cx="0" cy="-55" r="4" fill="#3b82f6" opacity="0.4"/>
+    <circle cx="0" cy="-35" r="4" fill="#3b82f6" opacity="0.4"/>
+    <circle cx="0" cy="-15" r="4" fill="#3b82f6" opacity="0.4"/>
+  </g>
+  <text x="400" y="530" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Polo</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e2e8f0"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1.5" fill="#94a3b8" opacity="0.05"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg)"/>
+  <rect width="800" height="800" fill="url(#dots)"/>
+  <!-- Desk organizer icon -->
+  <g transform="translate(400,340)" fill="none" stroke="#3b82f6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Main box -->
+    <rect x="-120" y="-40" width="240" height="160" rx="8" fill="#3b82f6" opacity="0.10"/>
+    <rect x="-120" y="-40" width="240" height="160" rx="8"/>
+    <!-- Dividers -->
+    <line x1="-40" y1="-40" x2="-40" y2="120"/>
+    <line x1="40" y1="-40" x2="40" y2="120"/>
+    <!-- Tall back section -->
+    <rect x="-120" y="-120" width="240" height="80" rx="8" fill="#3b82f6" opacity="0.06"/>
+    <rect x="-120" y="-120" width="240" height="80" rx="8"/>
+    <!-- Items peeking out: pen in left -->
+    <line x1="-80" y1="-60" x2="-80" y2="-110" opacity="0.4" stroke-width="6"/>
+    <line x1="-65" y1="-60" x2="-65" y2="-100" opacity="0.3" stroke-width="6"/>
+    <!-- Paper in middle section -->
+    <rect x="-30" y="-100" width="60" height="70" rx="2" fill="#3b82f6" opacity="0.06" stroke-width="4"/>
+    <!-- Ruler in right section -->
+    <line x1="80" y1="-60" x2="80" y2="-130" opacity="0.35" stroke-width="8"/>
+    <!-- Label on front compartments -->
+    <rect x="-110" y="30" width="60" height="6" rx="3" fill="#3b82f6" opacity="0.15" stroke="none"/>
+    <rect x="-30" y="30" width="60" height="6" rx="3" fill="#3b82f6" opacity="0.15" stroke="none"/>
+    <rect x="50" y="30" width="60" height="6" rx="3" fill="#3b82f6" opacity="0.15" stroke="none"/>
+  </g>
+  <text x="400" y="545" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="28" fill="#334155">Organizador</text>
+  <text x="400" y="740" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="16" fill="#cbd5e1">placeholder</text>
+</svg>

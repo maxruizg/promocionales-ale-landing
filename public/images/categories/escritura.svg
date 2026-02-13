@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="20" r="1.5" fill="white" opacity="0.12"/>
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)" rx="0"/>
+  <!-- Dot grid overlay -->
+  <rect width="800" height="600" fill="url(#dots)"/>
+  <!-- Pen icon -->
+  <g transform="translate(400, 250)" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Pen body -->
+    <rect x="-18" y="-110" width="36" height="150" rx="4" fill="white" fill-opacity="0.2" stroke="white"/>
+    <!-- Pen tip -->
+    <path d="M-18,40 L0,90 L18,40" fill="white" fill-opacity="0.2" stroke="white"/>
+    <!-- Pen clip -->
+    <path d="M18,-100 L28,-100 L28,-30 L22,-20" fill="none" stroke="white" stroke-width="4"/>
+    <!-- Pen cap line -->
+    <line x1="-18" y1="-60" x2="18" y2="-60" stroke="white" stroke-width="3"/>
+    <!-- Pen ring -->
+    <line x1="-18" y1="40" x2="18" y2="40" stroke="white" stroke-width="3"/>
+    <!-- Writing line decorations -->
+    <line x1="-60" y1="100" x2="60" y2="100" stroke="white" stroke-width="2" opacity="0.4"/>
+    <line x1="-40" y1="112" x2="40" y2="112" stroke="white" stroke-width="2" opacity="0.3"/>
+  </g>
+  <!-- Category text -->
+  <text x="400" y="420" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="38" font-weight="bold" fill="white" letter-spacing="2">Escritura</text>
+  <!-- Subtle tagline -->
+  <text x="400" y="455" text-anchor="middle" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="16" fill="white" opacity="0.7" letter-spacing="1">PRODUCTOS PROMOCIONALES</text>
+</svg>

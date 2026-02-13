@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useCallback } from "react";
 import { Link, data } from "react-router";
 import { ChevronRight, MessageCircle } from "lucide-react";
 import type { Route } from "./+types/producto.$slug";
@@ -13,8 +13,7 @@ import { Button } from "~/components/ui/Button";
 import { ProductGallery } from "~/components/product/ProductGallery";
 import { ProductSpecs } from "~/components/product/ProductSpecs";
 import { StockTable } from "~/components/product/StockTable";
-import { QuoteForm } from "~/components/product/QuoteForm";
-import { buildWhatsAppUrl } from "~/lib/whatsapp";
+import { QuoteDrawer } from "~/components/product/QuoteDrawer";
 
 export function meta({ data: loaderData }: Route.MetaArgs) {
   const name = loaderData?.product?.name || "Producto";
@@ -41,8 +40,11 @@ export default function ProductoSlug({ loaderData }: Route.ComponentProps) {
   const [selectedSku, setSelectedSku] = useState(
     product.variants.find((v) => v.stock === "disponible")?.sku || ""
   );
+  const [drawerOpen, setDrawerOpen] = useState(false);
 
   const selectedVariant = product.variants.find((v) => v.sku === selectedSku);
+  const openDrawer = useCallback(() => setDrawerOpen(true), []);
+  const closeDrawer = useCallback(() => setDrawerOpen(false), []);
 
   return (
     <>
@@ -93,10 +95,7 @@ export default function ProductoSlug({ loaderData }: Route.ComponentProps) {
                 </div>
                 <Button
                   variant="whatsapp"
-                  as="a"
-                  href={buildWhatsAppUrl({ productName: product.name, sku: selectedSku })}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  onClick={openDrawer}
                   className="ml-auto gap-2"
                 >
                   <MessageCircle className="w-4 h-4" />
@@ -116,16 +115,19 @@ export default function ProductoSlug({ loaderData }: Route.ComponentProps) {
             </div>
           </div>
 
-          {/* Quote form below */}
-          <div className="mt-16 max-w-xl mx-auto">
-            <div className="promo-card p-8">
-              <QuoteForm productName={product.name} sku={selectedSku} />
-            </div>
-          </div>
         </div>
       </main>
       <Footer />
       <WhatsAppFAB />
+      <QuoteDrawer
+        isOpen={drawerOpen}
+        onClose={closeDrawer}
+        productName={product.name}
+        sku={selectedSku}
+        productImage={product.images[0]}
+        price={formatCurrency(product.price)}
+        variantLabel={selectedVariant?.color}
+      />
     </>
   );
 }

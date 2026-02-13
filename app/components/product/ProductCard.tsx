@@ -12,11 +12,13 @@ export function ProductCard({ product }: ProductCardProps) {
   return (
     <Link to={`/producto/${product.slug}`} className="group">
       <div className="promo-card overflow-hidden h-full flex flex-col">
-        {/* Image placeholder */}
+        {/* Image */}
         <div className="relative aspect-square bg-surface-100 overflow-hidden">
-          <div className="w-full h-full flex items-center justify-center bg-gradient-to-br from-surface-100 to-surface-200">
-            <span className="font-heading text-surface-400 text-sm text-center px-4">{product.name}</span>
-          </div>
+          <img
+            src={product.images[0]}
+            alt={product.name}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+          />
           {product.isFeatured && (
             <div className="absolute top-3 left-3">
               <Badge variant="info">Destacado</Badge>

@@ -6,7 +6,7 @@ export const categories: Category[] = [
     name: "Textiles",
     slug: "textiles",
     description: "Playeras, gorras, chamarras y mas prendas personalizables.",
-    image: "/images/categories/textiles.jpg",
+    image: "/images/categories/textiles.svg",
     icon: "Shirt",
     accentColor: "primary",
     productCount: 45,
@@ -16,7 +16,7 @@ export const categories: Category[] = [
     name: "Escritura",
     slug: "escritura",
     description: "Plumas, lapices, boligrafos ejecutivos y sets de escritura.",
-    image: "/images/categories/escritura.jpg",
+    image: "/images/categories/escritura.svg",
     icon: "PenTool",
     accentColor: "coral",
     productCount: 32,
@@ -26,7 +26,7 @@ export const categories: Category[] = [
     name: "Tecnologia",
     slug: "tecnologia",
     description: "USB, power banks, audifonos y gadgets tecnologicos.",
-    image: "/images/categories/tecnologia.jpg",
+    image: "/images/categories/tecnologia.svg",
     icon: "Smartphone",
     accentColor: "purple",
     productCount: 28,
@@ -36,7 +36,7 @@ export const categories: Category[] = [
     name: "Drinkware",
     slug: "drinkware",
     description: "Termos, tazas, vasos y botellas personalizadas.",
-    image: "/images/categories/drinkware.jpg",
+    image: "/images/categories/drinkware.svg",
     icon: "Coffee",
     accentColor: "mint",
     productCount: 36,
@@ -46,7 +46,7 @@ export const categories: Category[] = [
     name: "Bolsas",
     slug: "bolsas",
     description: "Bolsas ecologicas, mochilas, maletines y portafolios.",
-    image: "/images/categories/bolsas.jpg",
+    image: "/images/categories/bolsas.svg",
     icon: "ShoppingBag",
     accentColor: "electric",
     productCount: 24,
@@ -56,7 +56,7 @@ export const categories: Category[] = [
     name: "Oficina",
     slug: "oficina",
     description: "Libretas, organizadores, portanotas y accesorios de escritorio.",
-    image: "/images/categories/oficina.jpg",
+    image: "/images/categories/oficina.svg",
     icon: "Briefcase",
     accentColor: "primary",
     productCount: 20,
@@ -73,7 +73,7 @@ export const products: Product[] = [
     shortDescription: "Playera deportiva con tecnologia Dry-Fit.",
     categoryId: "cat-1",
     brandId: "brand-1",
-    images: ["/images/products/playera-dryfit-1.jpg", "/images/products/playera-dryfit-2.jpg"],
+    images: ["/images/products/playera-dryfit-1.svg", "/images/products/playera-dryfit-2.svg"],
     price: 89,
     minOrder: 50,
     specs: [
@@ -99,7 +99,7 @@ export const products: Product[] = [
     description: "Gorra de 6 paneles con estructura frontal rigida y cierre de velcro ajustable. Acabado premium con visera curva. Perfecta para uniformes y campanas de marca.",
     shortDescription: "Gorra clasica estructurada con 6 paneles.",
     categoryId: "cat-1",
-    images: ["/images/products/gorra-1.jpg"],
+    images: ["/images/products/gorra-1.svg"],
     price: 65,
     minOrder: 100,
     specs: [
@@ -125,7 +125,7 @@ export const products: Product[] = [
     shortDescription: "Chamarra softshell con forro polar.",
     categoryId: "cat-1",
     brandId: "brand-2",
-    images: ["/images/products/chamarra-1.jpg"],
+    images: ["/images/products/chamarra-1.svg"],
     price: 350,
     minOrder: 25,
     specs: [
@@ -151,7 +151,7 @@ export const products: Product[] = [
     shortDescription: "Boligrafo metalico con acabado mate.",
     categoryId: "cat-2",
     brandId: "brand-3",
-    images: ["/images/products/boligrafo-1.jpg"],
+    images: ["/images/products/boligrafo-1.svg"],
     price: 35,
     minOrder: 100,
     specs: [
@@ -176,7 +176,7 @@ export const products: Product[] = [
     description: "Set ejecutivo de pluma y lapicero mecanico en estuche de madera lacada. Acabado cromado y cuerpo en resina negra. Regalo corporativo de alta gama.",
     shortDescription: "Set ejecutivo pluma y lapicero en estuche.",
     categoryId: "cat-2",
-    images: ["/images/products/set-pluma-1.jpg"],
+    images: ["/images/products/set-pluma-1.svg"],
     price: 180,
     minOrder: 25,
     specs: [
@@ -201,7 +201,7 @@ export const products: Product[] = [
     shortDescription: "Bateria portatil 10,000 mAh doble USB.",
     categoryId: "cat-3",
     brandId: "brand-4",
-    images: ["/images/products/powerbank-1.jpg"],
+    images: ["/images/products/powerbank-1.svg"],
     price: 220,
     minOrder: 50,
     specs: [
@@ -225,7 +225,7 @@ export const products: Product[] = [
     description: "Memoria USB ecologica con cuerpo de bambu natural y tapa magnetica. 16GB de almacenamiento. Opcion sustentable y elegante para tu marca.",
     shortDescription: "Memoria USB ecologica de bambu 16GB.",
     categoryId: "cat-3",
-    images: ["/images/products/usb-bambu-1.jpg"],
+    images: ["/images/products/usb-bambu-1.svg"],
     price: 95,
     minOrder: 100,
     specs: [
@@ -247,7 +247,7 @@ export const products: Product[] = [
     description: "Audifonos inalambricos Bluetooth 5.0 con estuche de carga personalizable. 4 horas de reproduccion. Diseno compacto y moderno.",
     shortDescription: "Audifonos Bluetooth 5.0 con estuche.",
     categoryId: "cat-3",
-    images: ["/images/products/audifonos-1.jpg"],
+    images: ["/images/products/audifonos-1.svg"],
     price: 185,
     minOrder: 50,
     specs: [
@@ -272,7 +272,7 @@ export const products: Product[] = [
     shortDescription: "Termo doble pared acero inox 500ml.",
     categoryId: "cat-4",
     brandId: "brand-2",
-    images: ["/images/products/termo-1.jpg"],
+    images: ["/images/products/termo-1.svg"],
     price: 150,
     minOrder: 50,
     specs: [
@@ -298,7 +298,7 @@ export const products: Product[] = [
     description: "Taza de ceramica blanca con recubrimiento especial para sublimacion. 11oz de capacidad. Apta para lavavajillas y microondas.",
     shortDescription: "Taza ceramica 11oz para sublimacion.",
     categoryId: "cat-4",
-    images: ["/images/products/taza-1.jpg"],
+    images: ["/images/products/taza-1.svg"],
     price: 45,
     minOrder: 100,
     specs: [
@@ -321,7 +321,7 @@ export const products: Product[] = [
     description: "Botella deportiva de material Tritan libre de BPA. Tapa con asa integrada y boquilla anti-derrames. Ligera y resistente a impactos.",
     shortDescription: "Botella deportiva Tritan BPA-free 750ml.",
     categoryId: "cat-4",
-    images: ["/images/products/botella-1.jpg"],
+    images: ["/images/products/botella-1.svg"],
     price: 75,
     minOrder: 100,
     specs: [
@@ -347,7 +347,7 @@ export const products: Product[] = [
     description: "Bolsa reutilizable de non-woven en multiples colores. Resistente y ecologica. Gran area de impresion. Ideal para ferias y eventos.",
     shortDescription: "Bolsa reutilizable non-woven ecologica.",
     categoryId: "cat-5",
-    images: ["/images/products/bolsa-nw-1.jpg"],
+    images: ["/images/products/bolsa-nw-1.svg"],
     price: 18,
     minOrder: 200,
     specs: [
@@ -375,7 +375,7 @@ export const products: Product[] = [
     shortDescription: "Mochila ejecutiva para laptop 15.6\".",
     categoryId: "cat-5",
     brandId: "brand-5",
-    images: ["/images/products/mochila-1.jpg"],
+    images: ["/images/products/mochila-1.svg"],
     price: 280,
     minOrder: 25,
     specs: [
@@ -399,7 +399,7 @@ export const products: Product[] = [
     description: "Libreta profesional con pasta dura y 80 hojas rayadas de papel bond. Cierre elastico y separador de paginas. Bolsillo interior trasero.",
     shortDescription: "Libreta pasta dura A5 con 80 hojas.",
     categoryId: "cat-6",
-    images: ["/images/products/libreta-1.jpg"],
+    images: ["/images/products/libreta-1.svg"],
     price: 55,
     minOrder: 100,
     specs: [
@@ -424,7 +424,7 @@ export const products: Product[] = [
     description: "Organizador de escritorio fabricado en bambu natural con compartimentos para plumas, tarjetas, celular y notas adhesivas. Ecologico y elegante.",
     shortDescription: "Organizador de escritorio en bambu.",
     categoryId: "cat-6",
-    images: ["/images/products/organizador-1.jpg"],
+    images: ["/images/products/organizador-1.svg"],
     price: 120,
     minOrder: 50,
     specs: [
@@ -447,7 +447,7 @@ export const products: Product[] = [
     description: "Playera tipo polo en tejido pique de algodon con cuello y punos en rib. Corte clasico y moderno. Ideal para uniformes corporativos.",
     shortDescription: "Polo pique algodon para uniformes.",
     categoryId: "cat-1",
-    images: ["/images/products/polo-1.jpg"],
+    images: ["/images/products/polo-1.svg"],
     price: 135,
     minOrder: 50,
     specs: [
@@ -472,7 +472,7 @@ export const products: Product[] = [
     description: "Cargador inalambrico Qi compatible con todos los dispositivos. Superficie amplia con gran area para impresion. LED indicador de carga.",
     shortDescription: "Cargador inalambrico Qi con impresion.",
     categoryId: "cat-3",
-    images: ["/images/products/cargador-1.jpg"],
+    images: ["/images/products/cargador-1.svg"],
     price: 165,
     minOrder: 50,
     specs: [
@@ -496,7 +496,7 @@ export const products: Product[] = [
     description: "Vaso termico tipo tumbler de 20oz con doble pared de acero inoxidable y tapa deslizante. Mantiene temperatura por horas. Acabado mate exterior.",
     shortDescription: "Vaso termico tumbler 20oz acero inox.",
     categoryId: "cat-4",
-    images: ["/images/products/vaso-1.jpg"],
+    images: ["/images/products/vaso-1.svg"],
     price: 110,
     minOrder: 50,
     specs: [
@@ -521,7 +521,7 @@ export const products: Product[] = [
     description: "Bolsa tote de lona de algodon natural de 12oz. Asas largas reforzadas. Alta calidad y gran durabilidad. 100% ecologica y reutilizable.",
     shortDescription: "Bolsa tote de lona algodon natural.",
     categoryId: "cat-5",
-    images: ["/images/products/bolsa-lona-1.jpg"],
+    images: ["/images/products/bolsa-lona-1.svg"],
     price: 45,
     minOrder: 100,
     specs: [
@@ -544,7 +544,7 @@ export const products: Product[] = [
     description: "Boligrafo ecologico con cuerpo de carton reciclado y clip de madera. Tinta azul. Opcion sustentable y economica para grandes volumenes.",
     shortDescription: "Boligrafo ecologico de carton reciclado.",
     categoryId: "cat-2",
-    images: ["/images/products/pluma-eco-1.jpg"],
+    images: ["/images/products/pluma-eco-1.svg"],
     price: 8,
     minOrder: 500,
     specs: [

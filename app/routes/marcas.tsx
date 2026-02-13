@@ -49,11 +49,9 @@ export default function Marcas({ loaderData }: Route.ComponentProps) {
                   className="scroll-scale text-center"
                   style={{ "--stagger": i } as React.CSSProperties}
                 >
-                  {/* Logo placeholder */}
-                  <div className="w-20 h-20 mx-auto mb-4 rounded-xl bg-surface-100 flex items-center justify-center">
-                    <span className="font-display text-xl font-bold text-surface-400">
-                      {brand.name.charAt(0)}
-                    </span>
+                  {/* Logo */}
+                  <div className="w-20 h-20 mx-auto mb-4 rounded-xl overflow-hidden">
+                    <img src={brand.logo} alt={brand.name} className="w-full h-full object-contain" />
                   </div>
                   <h3 className="font-heading text-lg font-bold text-surface-900 mb-1">
                     {brand.name}
